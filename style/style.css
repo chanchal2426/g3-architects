@@ -161,6 +161,22 @@ main>section {
 }
 
 /* Fact Description */
+/* sponsors releted style */
+.sposor-info {
+    max-width: 540px;
+    margin: 50px auto;
+    text-align: center;
+}
+
+.sponsor-companys {
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+
+}
+
+.sponsor-companys img {
+    filter: grayscale(100%);
+}
 
 /* Responcive media quary */
 @media screen and (max-width: 576px) {
@@ -171,8 +187,20 @@ main>section {
         flex-direction: column;
     }
 
-    .team-img-container {
-        grid-template-columns: repeat(1, 1fr);
+    .team-img-container,
+    .facts-containner,
+    .sponsor-companys {
+        grid-template-columns: 1fr;
+    }
+
+    .facts-containner {
+        justify-items: center;
+        gap: 24px;
+    }
+
+    .sponsor-companys {
+        justify-items: center;
+        gap: 50px;
     }
 
     .team-fiture {
@@ -189,5 +217,12 @@ main>section {
 
     .team-fiture {
         margin: 50px auto;
+    }
+
+    .sponsor-companys,
+    .facts-containner {
+        grid-template-columns: repeat(3, 1fr);
+        gap: 50px;
+        justify-items: center;
     }
 }
