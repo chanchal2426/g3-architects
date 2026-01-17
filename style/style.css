@@ -287,6 +287,11 @@ footer p {
     }
 }
 
+footer {
+    margin: 40px 15px;
+    padding: 25px 10px;
+}
+
 /* Medium Size device */
 @media screen and (min-width: 576px) and (max-width: 992px) {
 
