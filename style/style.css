@@ -127,6 +127,35 @@ main>section {
     font-weight: 500;
 }
 
+/* features section releted styles */
+.features {
+    gap: 140px;
+}
+
+#feature-section-title {
+    border-left: 5px solid #FF900E;
+    padding-left: 20px;
+}
+
+.fiture-card {
+    padding: 30px;
+    box-shadow: 0 4px 30px 0 rgba(0, 0, 0, 0.06);
+    margin-bottom: 20px;
+    max-width: 586px;
+    border-radius: 8px;
+}
+
+.fiture-card .fiture-title {
+    font-size: 1.25rem;
+    font-weight: 600;
+    margin-top: 0px;
+    margin-bottom: 0px;
+}
+
+.fiture-card .text-light-gray {
+    font-size: 16px;
+}
+
 /* some fact releted desain */
 .facts-containner {
     display: grid;
